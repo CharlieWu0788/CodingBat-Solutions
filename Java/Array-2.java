@@ -267,7 +267,7 @@ public boolean twoTwo(int[] nums)
 			count++;
 		else
 		{
-			if(state == 1)
+			if(count == 1)
 				return false;
 			else
 				count = 0;
